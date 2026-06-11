@@ -46,7 +46,7 @@ graphviz-export = ["dep:graphviz-rust"]
 
 # Enables OCEL 2.0 SQLite/DuckDB import and export functionality
 # Note: this might not work on certain architectures or machines if SQLite is not available/cannot be build
-ocel-sqlite = ["dep:rusqlite"] 
+ocel-sqlite = ["dep:rusqlite"]
 ocel-duckdb = ["dep:duckdb"]
 
 # Enables polars DataFrame conversion from/to event data structs
