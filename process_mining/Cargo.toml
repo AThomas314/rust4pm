@@ -103,3 +103,26 @@ harness = false
 [[bench]]
 name = "load_events_mem"
 harness = false
+
+[[bench]]
+name = "oc_declare"
+harness = false
+
+[[bench]]
+name = "oc_declare_mem"
+harness = false
+[[bench]]
+name = "ocel_csv_export"
+harness = false
+[[bench]]
+name = "ocel_csv_export_mem"
+harness = false
+[[bench]]
+name = "ocel_duckdb_export"
+harness = false
+required-features = ["ocel-duckdb"]
+
+[[bench]]
+name = "ocel_duckdb_export_mem"
+harness = false
+required-features = ["ocel-duckdb"]
